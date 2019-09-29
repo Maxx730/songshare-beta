@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SignupLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/InnerContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp">
+
+        <EditText
+            android:id="@+id/SignupUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/unity_input"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/SignupPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/unity_input"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/SignupPasswordRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/unity_input"
+            android:ems="10"
+            android:hint="@string/repeat_password"
+            android:inputType="textPassword"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/SignupEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/unity_input"
+            android:ems="10"
+            android:hint="@string/e_mail"
+            android:inputType="textPersonName"
+            android:padding="8dp" />
+
+        <ScrollView
+            android:id="@+id/EULAScroll"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:id="@+id/EULALayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/EULAText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/EULAMessage" />
+            </LinearLayout>
+        </ScrollView>
+
+        <CheckBox
+            android:id="@+id/EULAAgreement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/eula_agree" />
+
+        <Button
+            android:id="@+id/SignUpButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/unity_button_primary"
+            android:text="@string/sign_up" />
+
+        <Button
+            android:id="@+id/SignUpBack"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/unity_button_minimal"
+            android:text="Button" />
+
+    </LinearLayout>
+</LinearLayout>

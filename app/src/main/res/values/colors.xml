@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryLight">#B8CCFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#F0F0F0</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="unity_input_background">#F5F5F5</color>
+    <color name="unity_action_border">#F4F4F4</color>
+    <color name="unity_list_background">#F8F8F8</color>
+    <color name="unity_icon_dimmed">#EBEBEB</color>
+    <color name="like_red">#FF0000</color>
+</resources>
